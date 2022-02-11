@@ -1,0 +1,15 @@
+﻿<Application x:Class="ProjetFinal.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:ProjetFinal"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <Style x:Key="buttonFonction" TargetType="{x:Type Button}">
+            <Setter Property="FontFamily" Value = "Georgia"/>
+            <Setter Property="FontSize" Value="12"/>
+            <Setter Property="Foreground" Value="Maroon"/>
+            <Setter Property="VerticalAlignment" Value="Top"/>
+            <Setter Property="Height" Value="26"/>
+        </Style>
+    </Application.Resources>
+</Application>
